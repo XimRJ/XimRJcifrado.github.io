@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Vigenère</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cifrado Vigenère</h1>
+        </div>
+
+        <div class="content">
+            <div class="input-section">
+                <div class="cipher-section">
+                    <h3>Cifrar Mensaje</h3>
+                    <input type="text" placeholder="Mensaje" id="MensajeCifrar" class="input1">
+                    <input type="text" placeholder="Clave" id="ClaveCifrar" class="input">
+                    <button id="btnCifrar">Cifrar</button>
+                </div>
+
+                <div class="decipher-section">
+                    <h3>Descifrar Mensaje</h3>
+                    <input type="text" placeholder="Texto Cifrado" id="MensajeDescifrar" class="input1">
+                    <input type="text" placeholder="Clave" id="ClaveDescifrar" class="input">
+                    <button id="btnDescifrar">Descifrar</button>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <h3>Resultados</h3>
+                <pre id="MostrarCifrado"></pre>
+                <pre id="MostrarDescifrado"></pre>
+                <div id="Abecedario" class="alphabet"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
